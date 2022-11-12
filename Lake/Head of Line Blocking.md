@@ -1,0 +1,1 @@
+**Head of line blocking** - when batch of requests are taken for processing, all subsequent requests (usually fast ones) are waiting for slow request to complete. Therefore it is important to measure client-side response times.

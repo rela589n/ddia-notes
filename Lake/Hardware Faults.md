@@ -1,0 +1,1 @@
+**Hardware Faults** (disk, memory, cpu, network, power, etc). Those doesn't come together unless there's **common cause**. If one hard disc crashed - unlikely reserved one will crash at the same time. ^616ce6
