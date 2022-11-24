@@ -11,7 +11,7 @@
 
 ## Handling the Load
 
-**Shared-nothing architecture** - multiple **machines distribute the load** among them.
+**Shared-nothing architecture** - multiple **machines distribute the load** among each other.
 
 **Elastic systems** - which can **add resources** when **load is increased**. They are useful when load **increase is not predictable**, unlike manual scaling.
 

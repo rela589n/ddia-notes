@@ -1,0 +1,1 @@
+The major difference between a thing that might go wrong and a thing that **possibly can not go wrong** is that when a thing that can not posiibly go wrong **goes wrong**, it usually turns out to be **impossible to get at or repair**.
