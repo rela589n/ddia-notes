@@ -4,4 +4,7 @@ These are suitable for **absolute time measurement** and **not for duration**. ^
 
 If time on machine is **ahead of NTP server**, time may be **forcefully reset to past time**.
 
-See [[Clocks Synchronization]].
+Time may **differ on different nodes** because of [[Clocks Synchronization Issues]].
+This leads to [[Problems when Relying on Synchronized Clocks]].
+
+

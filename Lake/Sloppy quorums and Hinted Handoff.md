@@ -2,7 +2,7 @@
 
 If the client faces network interruption, a lot of alive nodes may look like dead to him. Though, for other clients they are still alive.
 
-**Sloppy quorum** - when `R` or `W` can't be reached on `N` designated nodes, the **requests are sent to other nodes**, which are **not in the list** of _designated_.
+**Sloppy quorum** (not actually the [[Quorum]]) - when `R` or `W` can't be reached on `N` designated nodes, the **requests are sent to other nodes**, which are **not in the list** of _designated_.
 
 **Hinted handoff** - once issue with `N` main nodes is fixed, **sloppy quorum writes** are sent to their **home nodes** (`N`).
 

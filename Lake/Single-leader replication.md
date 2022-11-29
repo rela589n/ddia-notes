@@ -9,5 +9,6 @@ Support:
 - message-brokers: Kafka, RabbitMQ - for highly-available queues.
 
 More:
-- [[Setting up new Followers]] with no downtime.
-- [[Handling node outages]].
+- [[Setting up new Followers]] with no downtime;
+- [[Handling node outages]];
+- [[Leader lease]].

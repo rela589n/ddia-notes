@@ -1,5 +1,4 @@
-If there are `N` replicas, every **write must be confirmed by `W` nodes**, 
-and **at least `R` nodes must be queried** for each read.
+**[[Quorum]] reading and writing** - If there are `N` replicas, every **write must be confirmed by `W` nodes**, and **at least `R` nodes must be queried** for each read.
 
 As long as `R + W > N` , the reads are guaranteed to be up-to-date, because in system there may be **no more than `N - W` stale replicas**.
 
