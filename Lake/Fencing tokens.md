@@ -6,4 +6,4 @@ When any particular resource is locked, the **lock manager issues fencing token*
 
 For instance, if resource has already processed token 32, and later on write with token 31 comes in, then it is rejected, since more recent token is most likely expired.
 
-This is a good idea to **protect API from abusive clients** even though it is an interanl API.
+This is a good idea to **protect API from abusive clients** even though it is an internal API.
