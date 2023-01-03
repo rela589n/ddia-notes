@@ -1,4 +1,4 @@
->Concept is similar to [[Serializable isolation level|serializability]] since both definitions include "can be arrange in sequential order", but semantics are different. If DB supports both, it is [[Strict Serializability]].
+>Concept is similar to [[Serializable|serializability]] since both definitions include "can be arrange in sequential order", but semantics are different. If DB supports both, it is [[Strict Serializability]].
 
 **Linearizability** (aka **atomic consistency**, **strong consistency**, **external consistency**) - [[Consistency guarantees|consistency guarantee]], which abstracts the system as **if it had only one replica**. In fact, there may be multiple copies, but system looks like as if there were only a single so that app doesn't need to worry about multiple replicas.
 

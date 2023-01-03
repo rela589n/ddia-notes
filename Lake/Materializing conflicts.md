@@ -2,4 +2,4 @@
 
 Considering meeting room booking example, table will contain data with 15 minutes time slots for every room for next 6 months. The transaction will lock overlapping rows in this table.
 
-This approach is a **Last Resort**, usually **[[Serializable isolation level|Serializability]] should be used instead**.
+This approach is a **Last Resort**, usually **[[Serializable|Serializability]] should be used instead**.
